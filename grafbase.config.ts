@@ -1,5 +1,5 @@
 import { g, config } from '@grafbase/sdk';
-import { relative } from 'path';
+
 
 const User=g.model('User',{
   name:g.string().length({min:2,max:30}),
